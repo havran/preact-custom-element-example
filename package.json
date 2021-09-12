@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "serve": "npx http-server dist"
   },
   "dependencies": {
     "preact": "^10.5.14",
