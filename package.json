@@ -1,0 +1,23 @@
+{
+  "name": "preact-custom-element-example-todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "preact": "^10.5.14",
+    "preact-custom-element": "^4.2.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  },
+  "browserslist": [
+    "Chrome >= 71",
+    "Firefox >= 64",
+    "Opera >= 57",
+    "Safari >= 12"
+  ],
+  "keywords": []
+}
