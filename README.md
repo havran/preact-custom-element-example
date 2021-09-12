@@ -15,6 +15,27 @@ This is example how to build custom HTML element with ReactJS.
 
 ## Build
 
-1. Run `npm run build`
-2. For final files look at `dist` directory, you can also run `npx http-server dist` and 
-   then open link http://localhost:8080 in your browser 
+1. Run `npm run build` to build final files to `dist` directory 
+2. For serving dist directory run `npm run server` and then open link http://localhost:8080 in your browser
+
+## Use custom HTML component in your HTML page
+
+You can use new element anywhere in yout HTML `<x-greeting/>`. Don't forget add 
+`dist/app.js` into your HTML page.
+
+Example:
+
+```html
+<html>
+<head>
+    <title>Test Preact HTML custom element</title>
+</head>
+<body>
+  <x-greeting></x-greeting>
+  <x-greeting name="John Doe"></x-greeting>
+  <x-greeting name="Jana Doe"></x-greeting>
+  <x-greeting name="Michael Doe"></x-greeting>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
+```
