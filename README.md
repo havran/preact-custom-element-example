@@ -1,6 +1,6 @@
 # README
 
-This is example how to build custom HTML element with PReactJS.
+This is example how to build custom HTML element with (Preact)[https://preactjs.com/].
 
 ## Requirements
 
