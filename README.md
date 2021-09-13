@@ -16,7 +16,7 @@ This is example how to build custom HTML element with [Preact](https://preactjs.
 ## Build
 
 1. Run `npm run build` to build final files to `dist` directory 
-2. For serving dist directory run `npm run server` and then open link http://localhost:8080 in your browser
+2. For serving dist directory run `npm run serve` and then open link http://localhost:8080 in your browser
 
 ## Use custom HTML component in your HTML page
 
