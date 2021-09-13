@@ -1,6 +1,6 @@
 # README
 
-This is example how to build custom HTML element with ReactJS.
+This is example how to build custom HTML element with PReactJS.
 
 ## Requirements
 
