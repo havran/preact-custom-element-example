@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "jsxFactory": "h",
+    "jsxImportSource": "preact",
+    "module": "esnext",
+    "strict": true,
+    "target": "es5"
+  },
+  "include": ["src"]
+}

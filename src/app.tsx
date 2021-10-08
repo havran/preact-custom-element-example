@@ -1,5 +1,4 @@
 import register from 'preact-custom-element';
-
-const Greeting = ({ name = 'World' }) => <p>Hello, {name}!</p>;
+import Greeting from "./Greeting";
 
 register(Greeting, 'x-greeting', ['name'], { shadow: true });

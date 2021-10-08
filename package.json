@@ -12,7 +12,10 @@
     "preact-custom-element": "^4.2.1"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-rc.0"
+    "@parcel/transformer-typescript-tsc": "^2.0.0-nightly.869",
+    "@types/preact-custom-element": "^4.0.1",
+    "parcel": "^2.0.0-rc.0",
+    "typescript": "^4.4.3"
   },
   "browserslist": [
     "Chrome >= 71",
